@@ -1,0 +1,12 @@
+name: Tribes
+version: 1.13.2
+main: me.therealdan.tribes.Tribes
+author: [TheRealDan, Nowaha]
+api-version: 1.13
+loadbefore: [Essentials]
+softdepend: [Vault, MVdWPlaceholderAPI]
+
+commands:
+  t:
+  tribe:
+  tribes:

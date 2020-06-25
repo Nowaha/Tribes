@@ -1,0 +1,41 @@
+# tribes.command.*: Access to all commands.
+# tribes.command.tribe: Access to the '/Tribe', '/Tribes' and '/T' commands.
+# tribes.command.relic: Access to the '/Relic' command.
+# tribes.command.core: Access to the '/Core' command.
+# tribes.command.weapons: Access to the '/Weapons' command.
+# tribes.command.fly: Access to '/fly'
+# tribes.commands.toggleexplosions: Access to '/toggleexplosions'
+
+Color:
+  1: '&7'
+  2: '&8'
+OP Overrides Everything: false
+Requires Permission:
+  Tribe command: false
+  Truce command: false
+  Enemy command: false
+No_Fly_Permission_Message: "&cYou don't have permission to fly."
+WorldGuard:
+  No Fly Regions:
+  - "noflyregion"
+Explosions:
+  DisableEntityExplosions: true
+  DisableBlockExplosions: true
+  Degrade Rate per block: 50
+  Time to display HP for: 100
+  Holograms Enabled: false
+  Display HP:
+    Format:
+      High: '&a{HP}HP'
+      Medium: '&e{HP}HP'
+      Low: '&c{HP}HP'
+    Percentage:
+      High: 0.6
+      Medium: 0.3
+  Damage:
+    Players: false
+    Other Entities: false
+  Push:
+    Players: true
+    Other Entities: true
+  Spawner Drop Chance: 0.25

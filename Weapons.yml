@@ -1,0 +1,67 @@
+Sound:
+  Throw Grenade: IRONGOLEM_HIT
+  Fire Launcher: ITEM_BREAK
+  Grenade Explodes: EXPLODE
+Delay:
+  Throw: 1
+  Fire: 1
+C4:
+  Name: '&bC4'
+  Type: STONE_BUTTON
+  Data: 0
+  Player: ''
+  Lore: []
+  Power: 250
+  Delay: 60
+  Range: 5
+Launcher:
+  Name: '&bLauncher'
+  Type: DIAMOND_BARDING
+  Data: 0
+  Player: ''
+  Lore: []
+  Grenades Per Shot: 3
+  Power: 2.0
+  Time: '&b{TIME}'
+Grenade:
+  Name: '&bGrenade'
+  Type: EGG
+  Data: 0
+  Player: ''
+  Lore: []
+  Power: 350
+  Bounce: false
+  Delay: 60
+  Throw: 1.0
+  Time: '&b{TIME}'
+  Range: 5
+Spawner Grenade:
+  Name: '&bSpawner Grenade'
+  Type: EGG
+  Data: 0
+  Player: ''
+  Lore: []
+  Power: 350
+  Throw: 1.0
+  Time: '&b{TIME}'
+Sticky Grenade:
+  Name: '&bSticky Grenade'
+  Type: EGG
+  Data: 0
+  Player: ''
+  Lore: []
+  Power: 350
+  Throw: 1.0
+  Time: '&b{TIME}'
+  Range: 5
+Crossbow:
+  Name: '&bCrossbow'
+  Type: GOLD_BARDING
+  Data: 0
+  Player: ''
+  Lore: []
+  Power: 2.0
+  Bolt Spawn Location Multiplier: 2.0
+  Recharge: 30
+  Damage: 4
+  Time: '&b{TIME}'

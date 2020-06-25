@@ -1,0 +1,124 @@
+Default:
+  Ring Material: STONE
+Grace Period: 21600
+Tribe Home Teleport Delay: 3000
+Grace Period On-Screen Text:
+  Title: "{TRIBECOLOR}{TRIBE}"
+  SubTitle: "&8{TIME}"
+  A: 20
+  B: 100
+  C: 20
+Tribe Core:
+  HP:
+    Level 1: 5000
+    Level 2: 10000
+    Level 3: 15000
+    Level 4: 20000
+    Level 5: 25000
+  Item:
+    Name: '&bTribe Core'
+    Lore:
+    - '&fPlace this somewhere inside your tribes territory.'
+  UI:
+    Title: '{COLOR}{TRIBE} Core'
+    Unlocked:
+      '1':
+        Name: '{COLOR}Level 1'
+        Type: NETHER_STAR
+        Data: 0
+        Lore:
+        - '&eUnlocked'
+      '2':
+        Name: '{COLOR}Level 2'
+        Type: NETHER_STAR
+        Data: 0
+        Lore:
+        - '&eUnlocked'
+      '3':
+        Name: '{COLOR}Level 3'
+        Type: NETHER_STAR
+        Data: 0
+        Lore:
+        - '&eUnlocked'
+      '4':
+        Name: '{COLOR}Level 4'
+        Type: NETHER_STAR
+        Data: 0
+        Lore:
+        - '&eUnlocked'
+      '5':
+        Name: '{COLOR}Level 5'
+        Type: NETHER_STAR
+        Data: 0
+        Lore:
+        - '&eUnlocked'
+    Locked:
+      '1':
+        Name: '{COLOR}Level 1'
+        Type: STAINED_GLASS_PANE
+        Data: 15
+        Lore:
+        - '&cLocked'
+      '2':
+        Name: '{COLOR}Level 2'
+        Type: STAINED_GLASS_PANE
+        Data: 15
+        Lore:
+        - '&cLocked'
+      '3':
+        Name: '{COLOR}Level 3'
+        Type: STAINED_GLASS_PANE
+        Data: 15
+        Lore:
+        - '&cLocked'
+      '4':
+        Name: '{COLOR}Level 4'
+        Type: STAINED_GLASS_PANE
+        Data: 15
+        Lore:
+        - '&cLocked'
+      '5':
+        Name: '{COLOR}Level 5'
+        Type: STAINED_GLASS_PANE
+        Data: 15
+        Lore:
+        - '&cLocked'
+Tribe Buffs:
+  Level 1:
+  - EFFECT;SPEED;1
+  Level 2:
+  - EFFECT;SPEED;1
+  - EFFECT;FAST_DIGGING;2
+  Level 3:
+  - EFFECT;SPEED;1
+  - EFFECT;FAST_DIGGING;2
+  - EFFECT;INCREASE_DAMAGE;1
+  Level 4:
+  - EFFECT;SPEED;1
+  - EFFECT;FAST_DIGGING;2
+  - EFFECT;INCREASE_DAMAGE;1
+  - DOUBLEXP
+  Level 5:
+  - EFFECT;SPEED;1
+  - EFFECT;FAST_DIGGING;2
+  - EFFECT;INCREASE_DAMAGE;1
+  - DOUBLEXP
+  - FLIGHT
+Tribe Color:
+  '1': 9
+  '2': 14
+  '3': 5
+  '4': 4
+  '5': 1
+  UI:
+    Title: Choose your Tribe Color
+    '1':
+      Name: '&3Blue'
+    '2':
+      Name: '&cRed'
+    '3':
+      Name: '&aGreen'
+    '4':
+      Name: '&eYellow'
+    '5':
+      Name: '&6Orange'
